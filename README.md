@@ -1,7 +1,7 @@
 ![Quasar Framework logo](https://cdn.rawgit.com/quasarframework/quasar-art/863c14bd/dist/svg/quasar-logo-full-inline.svg)
 
-# Quasar Framework Default App Template
-> Default Starter Kit for a Quasar Framework Project. Compatible with Quasar v0.9+
+# Quasar Framework Server Side Rendering Template
+> Server side rendering starter kit built in Feathersjs for a Quasar Framework Project. Compatible with Quasar v0.9+
 
 ## Usage
 Use Quasar CLI to generate a new project using this template:
@@ -11,11 +11,14 @@ Use Quasar CLI to generate a new project using this template:
 $ npm install -g quasar-cli
 
 # generate a project folder with this template
-$ quasar init my-project
+$ quasar init @codingfriend1/quasar-ssr-template my-project
 
 $ cd my-project
 $ npm install
-$ quasar dev
+$ quasar build
+$ cd api
+$ npm install
+$ npm run dev
 ```
 
 # Quasar Framework
